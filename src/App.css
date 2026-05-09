@@ -1,0 +1,20 @@
+/* 💰 Balance & Stats Styling */
+.balance-card {
+  background: linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  color: white;
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.balance-amount {
+  font-size: clamp(1.5rem, 5vw, 2.5rem); /* Auto-resizing for millions! */
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin: 0.5rem 0;
+  white-space: nowrap;
+}
